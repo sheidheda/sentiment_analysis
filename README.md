@@ -37,7 +37,7 @@ Furthermore,
 > If `x_i` is a boolean expressing the occurrence or absence of the i-th term from the vocabulary, then the likelihood of a document given a class `C_k` is given by:
 
 <p align="center">
-  <img src="https://github.com/marcotav/natural-language-processing/blob/master/sentiment-analysis/images/BNB.png", width="400">
+  <img src="https://github.com/sheidheda/sentiment_analysis/blob/main/images/BNB.png", width="400">
 </p>  
 
 where `p_{ki}` is the probability that a review k belonging to class `C_k` contains the term `x_i`. The classification is either 0 or 1 (negative or positive). In other words, the Bernoulli NB will tell us which words are more likely to appear *given that* the review is "fresh" versus or given that it is "rotten".
